@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css">
+	<title>My Web Project</title>
+</head>
+
+<body>
+	<div class="container">
+		<div class="text">Contact Us Form</div>
+		<form id="contact-form">
+			<div class="form-row">
+				<div class="input-data">
+					<input type="text" class="firstname">
+					<label>First Name</label>
+				</div>
+				<div class="input-data">
+					<input type="text" class="lastname">
+					<label>Last Name</label>
+				</div>
+			</div>
+
+			<div class="form-row">
+				<div class="input-data">
+					<input type="email" class="email">
+					<label>Enter Email</label>
+				</div>
+				<div class="input-data">
+					<input type="text" class="website">
+					<label>Enter Web site</label>
+				</div>
+			</div>
+
+			<div class="form-row textarea">
+				<div class="input-data">
+					<textarea cols="30" rows="10" class="write"></textarea>
+					<label>Enter Comments</label>
+				</div>
+			</div>
+
+			<div class="form-row textarea">
+				<div class="input-data">
+					<button type="submit" id="submit-btn">Submit</button>
+				</div>
+			</div>
+		</form>
+
+	</div>
+	<script src="app.js"></script>
+</body>
+
+</html>
